@@ -54,11 +54,11 @@
    }
    header .navbar{
        position: fixed;
-       top:8%;
+       top:10%;
        right: 0;
        z-index: 999;
        left: 0;
-       height: calc(100vh-80px);
+       height: fit-content;
        width: 100%;
        padding: 1rem;
        background-color: var(--body);
@@ -88,6 +88,10 @@
        background-color: var(--red);
        color: #fff;
    }
+   .hero h1 {
+    font-size: 2.5em;
+    
+}
    .project .card_container{
        grid-template-columns: 1fr 1fr;
    }
